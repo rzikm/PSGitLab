@@ -63,7 +63,7 @@ Function Get-GitLabPipeline {
         }
 
         if ($Scope -ne 'all') {
-            $GetUrlParameters += @{scope='all'}
+            $GetUrlParameters += @{scope=$Scope}
         }
 
         if ($Status -ne 'all') {

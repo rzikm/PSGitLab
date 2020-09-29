@@ -682,5 +682,31 @@
         </ListEntries>
       </ListControl>
     </View>
+    <View>
+      <Name>PSGitLab</Name>
+      <ViewSelectedBy>
+        <TypeName>GitLab.Project.Job</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>name</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>stage</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>status</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>id</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
   </ViewDefinitions>
 </Configuration>
