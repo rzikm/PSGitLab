@@ -116,7 +116,7 @@ FunctionsToExport = @(
     'Remove-GitLabRunner',
     'Remove-GitLabUser',
     'Remove-GitLabUserKey',
-    'Retry-GitLabJob',
+    'Restart-GitLabJob',
     'Restart-GitLabPipeline',
     'Save-GitLabAPIConfiguration',
     'Search-GitLabUser',

@@ -1,4 +1,4 @@
-Function Retry-GitLabJob {
+Function Restart-GitLabJob {
     [cmdletbinding(DefaultParameterSetName='Single')]
     [OutputType("GitLab.Project.Job")]
     param(

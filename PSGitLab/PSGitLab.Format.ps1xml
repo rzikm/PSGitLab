@@ -695,13 +695,19 @@
                 <PropertyName>name</PropertyName>
               </ListItem>
               <ListItem>
+                <PropertyName>id</PropertyName>
+              </ListItem>
+              <ListItem>
                 <PropertyName>stage</PropertyName>
               </ListItem>
               <ListItem>
                 <PropertyName>status</PropertyName>
               </ListItem>
               <ListItem>
-                <PropertyName>id</PropertyName>
+                <PropertyName>ref</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>duration</PropertyName>
               </ListItem>
             </ListItems>
           </ListEntry>
