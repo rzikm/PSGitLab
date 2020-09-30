@@ -87,6 +87,6 @@ Function Get-GitLabPipeline {
 
     Write-Verbose -Message "A prepared API request: $($($Request.URI).ToString())"
 
-    QueryGitLabAPI -Request $Request -ObjectType 'GitLab.Project.Pipeline' -Verbose
+    QueryGitLabAPI -Request $Request -ObjectType 'GitLab.Project.Pipeline'
 
 }
